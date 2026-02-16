@@ -1,0 +1,17 @@
+{
+  "name": "remotion-circle-stages",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "remotion studio",
+    "build": "remotion render src/index.ts CircleJourney out/video.mp4"
+  },
+  "dependencies": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "remotion": "4.0.278"
+  },
+  "devDependencies": {
+    "typescript": "5.4.5"
+  }
+}
